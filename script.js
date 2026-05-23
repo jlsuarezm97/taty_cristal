@@ -59,7 +59,7 @@ if(bookingForm){
         const mensaje = document.getElementById("mensaje").value;
 
         const texto =
-`📅 RESERVA SERVICIOS — Taty Cristal
+`📅 RESERVAR SERVICIOS — Taty Cristal
 
 👤 Cliente: ${nombre}
 📞 Teléfono: ${telefono}
