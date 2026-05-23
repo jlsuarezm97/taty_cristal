@@ -59,7 +59,7 @@ if(bookingForm){
         const mensaje = document.getElementById("mensaje").value;
 
         const texto =
-`📅 NUEVA RESERVA — Crystal Taty
+`📅 RESERVA SERVICIOS — Taty Cristal
 
 👤 Cliente: ${nombre}
 📞 Teléfono: ${telefono}
@@ -70,7 +70,7 @@ if(bookingForm){
 ${mensaje}`;
 
         const url =
-`https://wa.me/5351273027?text=${encodeURIComponent(texto)}`;
+`https://wa.me/12393212378?text=${encodeURIComponent(texto)}`;
 
         window.open(url, "_blank");
 
